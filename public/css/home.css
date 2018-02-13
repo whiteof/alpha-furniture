@@ -102,4 +102,23 @@
     margin-bottom: 50px;
     border-bottom: 2px solid #aaa;
     padding-bottom: 10px;
+    letter-spacing: 1px;
 }
+
+.ap-popular-products .ap-product-item {
+    border-bottom: 2px solid #eee;
+    margin-bottom: 60px;
+}
+.ap-popular-products h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 7px;
+    margin-top: 12px;
+}
+.ap-popular-products p {
+    font-size: 14px;
+    font-weight: 200;
+    color: #777;
+    line-height: 1.1em;
+}
+

@@ -141,10 +141,72 @@ body {
     border-top: 2px solid #faf307;
 }
 
-.footer-info {
+.ap-footer-info {
     background: #f5f5f5;
     padding: 30px 10px;
     margin-top: 40px;
+}
+.ap-footer-info h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.ap-footer-info-left ul.ap-footer-info-nav {
+    list-style: none;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.ap-footer-info-left ul.ap-footer-info-nav li a {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #777;
+}
+
+.ap-footer-info-left ul.ap-footer-info-sign-in {
+    list-style: none;
+    padding-left: 0px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    max-width: 150px;
+}
+.ap-footer-info-left ul.ap-footer-info-sign-in li a.ap-footer-info-sign-in-link {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 7px 0px 7px 30px;
+    background: url('../img/icon-sign-in.png') no-repeat left center;
+    background-size: 20px 20px;
+    color: #333;
+    opacity: 0.8;
+    font-weight: 100;
+    transition: opacity 0.2s;
+    letter-spacing: 1px;
+}
+
+.ap-footer-info-middle input[type="text"], .ap-footer-info-middle textarea {
+    color: #777;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.ap-footer-info-middle input[type="submit"] {
+    background-color: #dfdfdf;
+    color: #777;
+    font-size: 14px;
+    font-weight: 200;
+    transition: background-color 0.2s;
+}
+.ap-footer-info-middle input[type="submit"]:hover {
+    background-color: #cfcfcf;
+}
+.ap-footer-info-right {
+    text-align: right;
+}
+.ap-footer-info-right p {
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0px;
 }
 
 footer {
@@ -157,3 +219,4 @@ footer p {
     font-size: 13px;
     font-weight: 300;
 }
+
