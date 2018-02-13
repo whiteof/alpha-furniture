@@ -1,11 +1,48 @@
 body {
     margin: 0;
     background-color: #fff;
+    color: #555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ap-brand-container {
+    padding: 0px;
 }
 
 .af-navbar-full {
     background: #000;
+}
+.ap-brand-container {
     padding: 10px 0px;
+}
+
+.ap-top-menu-contact {
+    padding-left: 40px !important;
+    background: url('../img/icon-contact.png') no-repeat left center;
+    background-size: 30px 30px;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 100;
+    padding-right: 40px;
+    border-right: 1px solid #777;
+}
+
+.ap-top-menu-sign-in a {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 7px 0px 7px 40px;
+    background: url('../img/icon-sign-in.png') no-repeat left center;
+    background-size: 30px 30px;
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 100;
+    transition: opacity 0.2s;
+    letter-spacing: 1px;
+}
+.ap-top-menu-sign-in a:hover {
+    opacity: 1.0;
+    text-decoration: none !important;
 }
 
 #navbar {
@@ -16,4 +53,57 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
 
+}
+
+@media (max-width: 767px) {
+    .af-navbar-full {
+        display: none;
+    }
+    #navbar {
+        top: 0px !important;
+    }
+}
+
+.ap-navbar-container {
+    position: relative;
+    padding: 0px;
+}
+
+.ap-navbar-top ul {
+    float: right;
+    flex-direction: row;
+}
+.ap-navbar-top .nav-item {
+    padding: 10px 30px;
+}
+
+.ap-navbar-main {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+.ap-navbar-main ul {
+    clear: right;
+    float: right;
+    flex-direction: row;
+    height: 50px;
+}
+.ap-navbar-main .nav-item a {
+    display: block;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 100 !important;
+    line-height: 18px;
+    transition: background 0.2s;
+    padding: 15px 30px;
+    border-top: 2px solid #000;
+    letter-spacing: 2px;
+}
+.ap-navbar-main .nav-item a:hover {
+    background: #333;
+    text-decoration: none !important;
+}
+.ap-navbar-main .nav-item.active a {
+    border-top: 2px solid #faf307;
 }
