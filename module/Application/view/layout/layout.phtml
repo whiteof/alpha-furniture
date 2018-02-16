@@ -50,27 +50,32 @@
         </nav>
 
         <div class="af-navbar-full">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3 ap-brand-container">
-                        <a href="<?= $this->url('home') ?>"><img src="<?= $this->basePath('img/logo-full.png') ?>" height="120px" /></a>
+            <div class="af-navbar-top-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 ap-brand-container">
+                            <a href="<?= $this->url('home') ?>"><img src="<?= $this->basePath('img/logo-full.png') ?>" height="60px" /></a>
+                        </div>
+                        <div class="col-sm-9 ap-navbar-container">
+                            <div class="ap-navbar-top">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item ap-top-menu-contact">+1 212 123 4567</li>
+                                    <li class="nav-item ap-top-menu-sign-in"><a href="#">Sign In</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-9 ap-navbar-container">
-                        <div class="ap-navbar-top">
-                            <ul class="navbar-nav">
-                                <li class="nav-item ap-top-menu-contact">+1 212 123 4567</li>
-                                <li class="nav-item ap-top-menu-sign-in"><a href="#">Sign In</a></li>
-                            </ul>
-                        </div>
-                        <div class="ap-navbar-main">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active"><a href="#">Home</a></li>
-                                <li class="nav-item"><a href="#">About Us</a></li>
-                                <li class="nav-item"><a href="#">Catalog</a></li>
-                                <li class="nav-item"><a href="#">Contact Us</a></li>
-                            </ul>
-                            <div style="clear: both;"></div>
-                        </div>
+                </div>
+            </div>
+            <div class="af-navbar-bottom-container">
+                <div class="container">
+                    <div class="af-navbar-main-menu">
+                        <nav class="nav d-flex">
+                            <a class="af-menu-item" href="#">Home</a>
+                            <a class="af-menu-item" href="#">About Us</a>
+                            <a class="af-menu-item" href="#">Catalog</a>
+                            <a class="af-menu-item" href="#">Contact Us</a>
+                        </nav>
                     </div>
                 </div>
             </div>

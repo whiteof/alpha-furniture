@@ -4,18 +4,24 @@ body {
     color: #555;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-.ap-brand-container {
-    padding: 0px;
+.clear-both {
+    clear: both;
 }
 
-.af-navbar-full {
-    background: #000;
+.af-navbar-full .af-navbar-top-container {
+    background: #323232;
 }
+.af-navbar-full .af-navbar-bottom-container {
+    background: #efefef;
+}
+.af-navbar-full .af-navbar-bottom-container .af-navbar-main-menu .af-menu-item {
+    padding: 30px;
+}
+
 .ap-brand-container {
     padding: 10px 0px;
 }
-
+/*
 .ap-top-menu-contact {
     padding-left: 40px !important;
     background: url('../img/icon-contact.png') no-repeat left center;
@@ -45,6 +51,50 @@ body {
     text-decoration: none !important;
 }
 
+.ap-navbar-container {
+    position: relative;
+    padding: 0px;
+}
+
+.ap-navbar-top ul {
+    float: right;
+    flex-direction: row;
+}
+.ap-navbar-top .nav-item {
+    padding: 10px 30px;
+}
+
+.ap-navbar-main {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+.ap-navbar-main ul {
+    clear: right;
+    float: right;
+    flex-direction: row;
+    height: 50px;
+}
+.ap-navbar-main .nav-item a {
+    display: block;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 200 !important;
+    line-height: 18px;
+    transition: background 0.2s;
+    padding: 15px 30px;
+    border-top: 2px solid #000;
+    letter-spacing: 2px;
+}
+.ap-navbar-main .nav-item a:hover {
+    background: #333;
+    text-decoration: none !important;
+}
+.ap-navbar-main .nav-item.active a {
+    border-top: 2px solid #faf307;
+}
+*/
 #navbar {
     top: -60px;
     transition: top 0.3s;
@@ -95,50 +145,6 @@ body {
     #navbar {
         top: 0px !important;
     }
-}
-
-.ap-navbar-container {
-    position: relative;
-    padding: 0px;
-}
-
-.ap-navbar-top ul {
-    float: right;
-    flex-direction: row;
-}
-.ap-navbar-top .nav-item {
-    padding: 10px 30px;
-}
-
-.ap-navbar-main {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 50px;
-}
-.ap-navbar-main ul {
-    clear: right;
-    float: right;
-    flex-direction: row;
-    height: 50px;
-}
-.ap-navbar-main .nav-item a {
-    display: block;
-    color: #ccc;
-    text-transform: uppercase;
-    font-weight: 200 !important;
-    line-height: 18px;
-    transition: background 0.2s;
-    padding: 15px 30px;
-    border-top: 2px solid #000;
-    letter-spacing: 2px;
-}
-.ap-navbar-main .nav-item a:hover {
-    background: #333;
-    text-decoration: none !important;
-}
-.ap-navbar-main .nav-item.active a {
-    border-top: 2px solid #faf307;
 }
 
 .ap-footer-info {
