@@ -208,7 +208,9 @@ body {
 #navbar ul.navbar-nav.mr-auto .nav-item.active .nav-link {
     border-bottom: 2px solid #faf307;
 }
-
+#navbar .ap-secondary-menu-sign-in {
+    padding-bottom: 10px;
+}
 #navbar .ap-secondary-menu-sign-in a.ap-secondary-menu-sign-in-link {
     display: inline-block;
     font-size: 16px;
@@ -225,8 +227,9 @@ body {
 }
 #navbar .ap-secondary-menu-sign-in a.ap-secondary-menu-sign-in-link:hover {
     opacity: 1.0;
+    text-decoration: none !important;
 }
-#navbar .ap-secondary-menu-sign-up a.ap-secondary-menu-sign-up-link {
+#navbar a.ap-secondary-menu-sign-up-link {
     display: inline-block;
     font-size: 16px;
     line-height: 20px;
@@ -237,10 +240,16 @@ body {
     transition: opacity 0.2s;
     letter-spacing: 1px;
 }
-#navbar .ap-secondary-menu-sign-up a.ap-secondary-menu-sign-up-link:hover {
+#navbar a.ap-secondary-menu-sign-up-link:hover {
     opacity: 1.0;
+    text-decoration: none !important;
 }
-
+@media (max-width: 992px) {
+    #navbar .nav-link {
+        font-size: 15px;
+        padding: 5px 15px !important;
+    }
+}
 @media (max-width: 767px) {
     .af-navbar-full {
         display: none;
@@ -248,7 +257,11 @@ body {
     #navbar {
         top: 0px !important;
     }
+    #navbar .ap-secondary-menu-sign-in {
+        padding-top: 20px;
+    }
 }
+
 
 .ap-footer-info {
     background: #f5f5f5;

@@ -69,6 +69,9 @@
 .ap-shipping-info {
     margin-bottom: 60px;
 }
+.ap-shipping-info .col-sm-6 {
+    margin-bottom: 20px;
+}
 .ap-shipping-info h1 {
     text-align: center;
     text-transform: uppercase;
@@ -113,6 +116,9 @@
 
 .ap-category-container {
     margin-bottom: 80px;
+}
+.ap-category-container .col-sm-6 {
+    margin-bottom: 20px;
 }
 
 .ap-popular-products h2 {
