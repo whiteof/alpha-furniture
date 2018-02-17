@@ -14,13 +14,96 @@ body {
 .af-navbar-full .af-navbar-bottom-container {
     background: #efefef;
 }
-.af-navbar-full .af-navbar-bottom-container .af-navbar-main-menu .af-menu-item {
-    padding: 30px;
-}
 
 .ap-brand-container {
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
+
+.ap-top-menu-contact {
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+    color: #faf307;
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.ap-top-menu-contact span {
+    display: inline-block;
+    margin: 0px 0px 0px 15px;
+    padding-left: 25px;
+    background: url('../img/icon-contact-yellow.png') no-repeat left center;
+    background-size: 20px 20px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+.ap-top-menu-sign-in {
+    text-align: right;
+}
+.ap-top-menu-catalog-link {
+    color: #fff;
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: 200;
+    border-radius: 50px;
+    padding: 8px 15px;
+    opacity: 0.7;
+    background: #555;
+    transition: opacity 0.2s;
+}
+.ap-top-menu-catalog-link:hover {
+    color: #fff;
+    text-decoration: none !important;
+    opacity: 1.0;
+}
+.ap-top-menu-sign-in a.ap-top-menu-sign-in-link {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 10px 5px 35px;
+    background: url('../img/icon-sign-in.png') no-repeat left center;
+    background-size: 25px 25px;
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 200;
+    transition: opacity 0.2s;
+    letter-spacing: 1px;
+    border-right: 1px solid #ccc;
+}
+.ap-top-menu-sign-in a.ap-top-menu-sign-in-link:hover {
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 1.0;
+}
+.ap-top-menu-sign-in a.ap-top-menu-sign-up-link {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 0px 5px 10px;
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 200;
+    transition: opacity 0.2s;
+    letter-spacing: 1px;
+}
+.ap-top-menu-sign-in a.ap-top-menu-sign-up-link:hover {
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 1.0;
+}
+
+.af-navbar-full .af-navbar-bottom-container .af-navbar-main-menu .af-menu-item {
+    padding: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 300;
+    transition: background 0.3s;
+}
+.af-navbar-full .af-navbar-bottom-container .af-navbar-main-menu .af-menu-item:hover {
+    background: #ccc;
+    text-decoration: none !important;
+}
+
 /*
 .ap-top-menu-contact {
     padding-left: 40px !important;
@@ -98,17 +181,21 @@ body {
 #navbar {
     top: -60px;
     transition: top 0.3s;
-    background-color: #000 !important;
+    background-color: #323232 !important;
     opacity: 0.85;
     padding-top: 0px;
     padding-bottom: 0px;
+}
+#navbar .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #navbar ul.navbar-nav.mr-auto {
     margin-left: 20px;
 }
 #navbar ul.navbar-nav.mr-auto .nav-item .nav-link {
     padding: 5px 20px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #323232;
     font-weight: 200;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -122,10 +209,11 @@ body {
     border-bottom: 2px solid #faf307;
 }
 
-#navbar .ap-secondary-menu-sign-in a {
+#navbar .ap-secondary-menu-sign-in a.ap-secondary-menu-sign-in-link {
+    display: inline-block;
     font-size: 16px;
     line-height: 20px;
-    padding: 7px 0px 7px 40px;
+    padding: 7px 10px 7px 40px;
     background: url('../img/icon-sign-in.png') no-repeat left center;
     background-size: 30px 30px;
     color: #fff;
@@ -133,8 +221,23 @@ body {
     font-weight: 100;
     transition: opacity 0.2s;
     letter-spacing: 1px;
+    border-right: 1px solid #fff;
 }
-#navbar .ap-secondary-menu-sign-in a:hover {
+#navbar .ap-secondary-menu-sign-in a.ap-secondary-menu-sign-in-link:hover {
+    opacity: 1.0;
+}
+#navbar .ap-secondary-menu-sign-up a.ap-secondary-menu-sign-up-link {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 7px 0px 7px 10px;
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 100;
+    transition: opacity 0.2s;
+    letter-spacing: 1px;
+}
+#navbar .ap-secondary-menu-sign-up a.ap-secondary-menu-sign-up-link:hover {
     opacity: 1.0;
 }
 
