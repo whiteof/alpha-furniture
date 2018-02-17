@@ -89,6 +89,27 @@
     font-weight: 200;
     color: red;
 }
+.ap-shipping-info .af-message-catalog {
+    min-height: 30px;
+    padding-left: 45px;
+    padding-top: 5px;
+    background: url('../img/icon-catalog.png') no-repeat left top;
+    background-size: 30px 30px;
+}
+.ap-shipping-info .af-message-order {
+    min-height: 30px;
+    padding-left: 45px;
+    padding-top: 5px;
+    background: url('../img/icon-order.png') no-repeat left top;
+    background-size: 30px 30px;
+}
+.ap-shipping-info .af-message-store {
+    min-height: 30px;
+    padding-left: 45px;
+    padding-top: 5px;
+    background: url('../img/icon-store.png') no-repeat left top;
+    background-size: 30px 30px;
+}
 
 .ap-category-container {
     margin-bottom: 80px;

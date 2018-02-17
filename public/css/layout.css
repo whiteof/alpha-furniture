@@ -328,4 +328,17 @@ footer p {
     font-size: 13px;
     font-weight: 300;
 }
-
+footer .af-back-to-top {
+    display: block;
+    width: 0px;
+    height: 30px;
+    padding-left: 30px;
+    background: url('../img/icon-arrow-top.png') no-repeat left center;
+    background-size: 30px 30px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 20px;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
