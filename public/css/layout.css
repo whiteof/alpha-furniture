@@ -93,7 +93,7 @@ body {
 
 .af-navbar-full .af-navbar-bottom-container .af-navbar-main-menu .af-menu-item {
     padding: 30px;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #555;
     font-weight: 300;
@@ -284,11 +284,11 @@ body {
     font-size: 14px;
     line-height: 20px;
     padding: 7px 0px 7px 30px;
-    background: url('../img/icon-sign-in.png') no-repeat left center;
+    background: url('../img/icon-sign-in-dark.png') no-repeat left center;
     background-size: 20px 20px;
     color: #333;
-    opacity: 0.8;
-    font-weight: 100;
+    opacity: 0.5;
+    font-weight: 400;
     transition: opacity 0.2s;
     letter-spacing: 1px;
 }
